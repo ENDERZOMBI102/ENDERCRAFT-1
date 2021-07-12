@@ -1,0 +1,232 @@
+{
+    "images":
+    {
+		"background": {
+			"image" : "mainmenu:textures/background.png",
+			"posX" : 0,
+			"posY" : 0,
+			"width" : 700,
+			"height" : 400,
+			"alignment" : "top_left"
+		},
+		"title": {
+            "image" : "mainmenu:textures/title.png",
+            "posX" : -325,
+            "posY" : 5,
+            "width" : 650,
+            "height" : 120,          
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons": {
+        "singleplayer": {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 172,
+            "width" : 200,
+            "height" : 20,
+            "action" : {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer": {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 196,
+            "width" : 200,
+            "height" : 20,
+            "action" : {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods": {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : 220,
+            "width" : 200,
+            "height" : 20,
+            "action" : {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options": {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 244,
+            "width" : 98,
+            "height" : 20,
+            "action" : {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit": {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 244,
+            "width" : 98,
+            "height" : 20,
+			"hoverText" : ": C",
+            "action" : {
+                "type" : "quit"
+            }
+        },
+        
+        "language": {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 244,
+            "width" : 20,
+            "height" : 20,
+            "action" : {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh": {
+            "text" : "",
+            "posX" : 105,
+            "posY" : 244,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : {
+                "type" : "refresh"
+            }
+        },
+		
+		"discord": {
+            "text" : "",
+            "posX" : 105,
+            "posY" : 220,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 129,
+			"imageHeight" : 129,
+			"tooltip" : "Join our discord community!",
+            "texture" : "mainmenu:textures/discord.png",
+            "action" : {
+                "type" : "openLink",
+				"link" : "https://discord.gg/YFjKdBE"
+            }
+        },
+		
+		"bugreport": {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 220,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 225,
+			"imageHeight" : 225,
+			"tooltip" : "Report a bug!",
+            "texture" : "mainmenu:textures/bugreport.png",
+            "action" : {
+                "type" : "openLink",
+				"link" : "https://github.com/ENDERZOMBI102/the-endercraft/issues"
+            }
+        },
+		
+		"changemenu":
+        {
+            "text" : "Other",
+            "posX" : -124,
+            "posY" : 200,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 225,
+			"imageHeight" : 225,
+			"tooltip" : "Other buttons",
+            "action" : {
+                "type" : "openGui",
+                "gui" : "custom.othermenu"
+            }
+        }
+    },
+    
+    "texts": {	
+        "madeby": {
+            "text" : "Made By ENDERZOMBI102!",
+            "posX" : -123,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+			"action" : {
+                "type" : "openLink",
+                "link" : "https://minecraft.curseforge.com/members/enderzombi102"
+            }
+        },
+
+        "ENDERCRAFT": {
+            "text" : "ENDERCRAFT V. dev 2.6.0",
+            "posX" : 2,
+            "posY" : -46,
+            "color" : -256,
+			"hoverColor" : "-256",
+            "alignment" : "bottom_left",
+			"action" : {
+                "type" : "openLink",
+                "link" : "https://minecraft.curseforge.com/projects/the-endercraft"
+            }
+        },
+		
+		"Welcome": {
+            "text" : "Welcome #username#!",
+            "posX" : 2,
+            "posY" : -30,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        "latestVersionText": {
+			"text" : "Latest version:",
+			"posX" : 2,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		},
+		"latestVersion": {
+			"text": "web:https://raw.githubusercontent.com/ENDERZOMBI102/ENDERCRAFT-1/master/latest.version",
+			"posX" : 84,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		},
+        "mods": {
+            "text" : "#modsloaded# Mods loaded #modsactive# Mods active",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 250,
+            "posY" : 100,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:mainmenu:texts/splashes.txt"
+        }
+		//TODO: make another panorama or a slideshow
+        /*"panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }*/
+    }
+}

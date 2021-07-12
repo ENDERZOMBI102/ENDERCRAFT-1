@@ -1,0 +1,92 @@
+{
+    "images":
+    {
+		"background":
+		{
+			"image" : "mainmenu:textures/background.png",
+			"posX" : 0,
+			"posY" : 0,
+			"width" : 700,
+			"height" : 400,
+			"alignment" : "top_left"
+		}
+    },
+    
+    "buttons":
+    {
+        "Forum":
+        {
+            "text" : "Forum",
+            "posX" : -100,
+            "posY" : 172,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://gamesportal.it"
+            }
+        },
+		
+		"Wiki":
+        {
+            "text" : "Wiki",
+            "posX" : -100,
+            "posY" : 172,
+            "width" : 200,
+            "height" : 20,
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://github.com/ENDERZOMBI102/the-endercraft/wiki"
+            }
+        },
+		
+		"changemenu":
+        {
+            "text" : "Back",
+            "posX" : -124,
+            "posY" : 220,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 225,
+			"imageHeight" : 225,
+			"tooltip" : "Return to main menu",
+            "action" : {
+                "type" : "openGui",
+                "gui" : "mainmenu"
+            }
+        }
+    },
+    
+    "texts":
+    {
+		"forum": {
+            "text": "Forum",
+            "posX": -16,
+            "posY": -20,
+			"color" : 2263842,
+            "alignment" : "bottom_right",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://github.com/ENDERZOMBI102/the-endercraft/wiki"
+            }
+        },
+		
+		"wiki": {
+            "text": "wiki",
+            "posX": -16,
+            "posY": -20,
+			"color" : 2263842,
+            "alignment" : "bottom_right",
+            "action" : {
+                "type" : "openLink",
+                "link" : "https://github.com/ENDERZOMBI102/the-endercraft/wiki"
+            }
+        }
+    },
+    
+    "other":
+    {
+        
+    }
+}

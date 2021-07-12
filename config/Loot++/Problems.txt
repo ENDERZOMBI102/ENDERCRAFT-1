@@ -1,0 +1,5 @@
+The following problems were encountered while loading the config files:
+entity_drops.cfg 'removing' #1: The following block or item doesn't seem to exist: 'magicalcrops:ZivicioEssence'.
+
+block_drops.cfg 'adding' #01: Entry had wrong number of parts: 'i-birdsnests:birdsnest'.
+

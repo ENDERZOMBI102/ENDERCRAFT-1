@@ -1,0 +1,209 @@
+## Dimension IDs                                                      ##
+########################################################################
+## In the form:                                                       ##
+## <dimension id>                                                     ##
+##    - Name: <dimension name>                                        ##
+##    - Height: <dimension height>                                    ##
+##    - Has Sky? <true if dimension has a sky>                        ##
+##    - Cloud Height: <height of dimension's clouds (only on client)> ##
+##    - Can Respawn Here? <true if players can respawn here>          ##
+##    - Terrain Scale: <distance travelled per block (nether is 8)>   ##
+########################################################################
+0
+	- Name: Overworld
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-1
+	- Name: Nether
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 8.0
+
+
+1
+	- Name: The End
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-28
+	- Name: Moon
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-29
+	- Name: Mars
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-30
+	- Name: Asteroids
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-31
+	- Name: Planet zollus
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-32
+	- Name: Planet eden
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-33
+	- Name: Planet kriffon
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-34
+	- Name: Planet purgot
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-35
+	- Name: Planet xathius
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 248.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-40
+	- Name: Mercury
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-41
+	- Name: Venus
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-47
+	- Name: Io
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-48
+	- Name: Europa
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-49
+	- Name: Callisto
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-50
+	- Name: Planet oasis
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 218.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-52
+	- Name: Worm Hole
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-100
+	- Name: Underdark
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 256.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-59
+	- Name: Pluto
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-112
+	- Name: The Last Millenium
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 256.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+2
+	- Name: SpectreWorld
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: -5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
