@@ -672,9 +672,6 @@ blockManyullyn
 TConstruct:MetalBlock - 2
 
 
-blockMarble
-
-
 blockMeat
 MineFactoryReloaded:brick - 13
 
@@ -3489,6 +3486,7 @@ appliedenergistics2:item.ItemMultiMaterial - 0
 
 
 crystalChargedCertusQuartz
+appliedenergistics2:item.ItemMultiMaterial - 1
 
 
 crystalCinnabar
@@ -5531,9 +5529,6 @@ dustPowderedUranium
 
 
 dustPrometheum
-
-
-dustPryotheum
 
 
 dustPulsatingIron
@@ -11412,9 +11407,6 @@ aobd:shardMeteoricIron - 0
 
 shardMithril
 aobd:shardMithril - 0
-
-
-shardNether
 
 
 shardNickel
