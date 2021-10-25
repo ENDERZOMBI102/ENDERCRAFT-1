@@ -414,16 +414,16 @@
 	- Forge Biome Types: COLD DEAD HILLS SNOWY 
 
 102
-	- Name: Meadow Forest
-	- Forge Biome Types: LUSH FOREST PLAINS 
+	- Name: moon
+	- Forge Biome Types: COLD DRY DEAD LUSH FOREST PLAINS 
 
 103
-	- Name: Oasis
-	- Forge Biome Types: HOT DRY JUNGLE LUSH SANDY 
+	- Name: marsFlat
+	- Forge Biome Types: HOT COLD DRY JUNGLE DEAD LUSH SANDY 
 
 104
-	- Name: Orchard
-	- Forge Biome Types: SPARSE LUSH FOREST PLAINS 
+	- Name: asteroids
+	- Forge Biome Types: COLD SPARSE DRY SPOOKY DEAD LUSH FOREST PLAINS 
 
 105
 	- Name: Quagmire
@@ -689,8 +689,12 @@
 	- Name: Flying Mountains
 	- Forge Biome Types: DENSE WET MAGICAL OCEAN RIVER MOUNTAIN 
 
+210
+	- Name: Mercury
+	- Forge Biome Types: DRY PLAINS 
+
 211
-	- Name: Highlands
+	- Name: Venus
 	- Forge Biome Types: FOREST HILLS 
 
 212
@@ -714,15 +718,15 @@
 	- Forge Biome Types: DENSE WET JUNGLE FOREST HILLS 
 
 217
-	- Name: Redwood Forest
+	- Name: Io
 	- Forge Biome Types: FOREST HILLS 
 
 218
-	- Name: Rock Mountains
+	- Name: Europa
 	- Forge Biome Types: MOUNTAIN HILLS 
 
 219
-	- Name: Sahel
+	- Name: Callisto
 	- Forge Biome Types: HOT SPARSE DRY PLAINS HILLS SANDY 
 
 220
@@ -734,7 +738,7 @@
 	- Forge Biome Types: DRY PLAINS HILLS 
 
 222
-	- Name: Snow Mountains
+	- Name: Hole
 	- Forge Biome Types: COLD MOUNTAIN HILLS SNOWY 
 
 223
@@ -746,7 +750,7 @@
 	- Forge Biome Types: HOT DENSE WET JUNGLE HILLS 
 
 225
-	- Name: Tropical Islands
+	- Name: Pluto
 	- Forge Biome Types: HOT WET JUNGLE OCEAN RIVER HILLS 
 
 226

@@ -280,9 +280,7 @@ witherSkeleton
 94 - Squid
 95 - Wolf
 96 - MushroomCow
-97 - SnowMan
 98 - Ozelot
-99 - VillagerGolem
 100 - EntityHorse
 120 - Villager
 171 - failed_pig
